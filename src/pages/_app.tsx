@@ -20,8 +20,7 @@ const MyApp: AppType<{ session: Session | null }> = ({
 
       <div className="container mx-auto flex items-start sm:pr-4">
       <Nav />
-      <div className="min-h screen flex-grow border-x">
-      
+       <div className="min-h-screen flex-grow border-x">
         <Component {...pageProps} />
         </div>
       </div>

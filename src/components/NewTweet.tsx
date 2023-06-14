@@ -1,3 +1,5 @@
+import { Button } from "./Button";
+
 export function NewTweet() {
   return (
     <form className="flex flex-col gap-2 border-b px-4 py-2">
@@ -6,7 +8,7 @@ export function NewTweet() {
       placeholder="What's happening?!">
       </textarea>
       </div>
-      <button>btn</button>
+      <Button> Tweet </Button>
     </form>
   );
 }
